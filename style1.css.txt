@@ -1,0 +1,91 @@
+body {
+    background-color:s #faf9f8e5;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+img {
+    width: 200px;
+    height: 150px; /* Fixed dimensions of the container */
+    object-fit: cover; /* Cover the container, cropping if needed */
+  }
+  
+  /* OR */
+  
+  img {
+    width: 200px;
+    height: 150px;
+    object-fit: contain; /* Fit inside the container, adding letterboxing if needed */
+  }
+  
+  /* OR */
+  
+  img {
+    width: 200px;
+    height: 150px;
+    object-fit: fill; /* Stretch to fill the container, potentially distorting the image */
+  }
+  #skills {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li::before {
+  content: "\25B8";
+  margin-right: 20px;
+}
+
+ul li {
+  text-align: justify; /* Apply text justification to the list items */
+}
+
+ul li b {
+  text-align: left; /* Override justification for the bold text */
+  /* You can add any other styles for the bold text here */
+}
+
+#skills li {
+    margin-bottom: 20px;
+}
+
+#skills li::before {
+    content: "\25B8";
+    margin-right: 20px;
+}
+  img {
+    background-image: image-set(
+      url("C:\Users\tharu\OneDrive\Pictures\WhatsApp Image 2025-02-14 at 11.16.54_3b6a07d3.jpg") 1x,      /* Standard resolution */
+      url("C:\Users\tharu\OneDrive\Pictures\handwritten-character-recognition-machine-learning-project.webp") 2x,   /* Retina/HiDPI resolution */
+      url("C:\Users\tharu\OneDrive\Pictures\project-management-system-overview.png") 3x    /* Even higher resolution */
+    );
+  }
+ 

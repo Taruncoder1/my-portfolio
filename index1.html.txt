@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="bg-primary text-white text-center p-5">
+        <h1>Welcome to My Portfolio!</h1>
+        <p>Hi, I'm Tharun Kumar K S, a BE with a passion for Computer Science and Engineering.</p>
+    </header>
+    <section id="about" class="container mt-5">
+        <h2 class="text-center">About Me</h2>
+        <div class="row">
+            <div class="col-md-4 d-flex justify-content-center">
+                <img src="C:\Users\tharu\OneDrive\Pictures\WhatsApp Image 2025-02-14 at 11.16.54_3b6a07d3.jpg" alt="Tharun Kumar" class="img-fluid rounded-circle" style="max-width: 200px; height: 200px; object-fit: cover;">
+            </div>
+            <div class="col-md-8">
+                <p>I am Tharun Kumar, a fourth-year Computer Science and Engineering undergraduate at ATME College of Engineering, passionate about data analysis, machine learning, and programming, seeking an internship to apply my technical skills in real-world problem-solving.</p>
+                <p>Highly motivated Computer Science and Engineering student with strong technical and analytical skills seeking an internship or entry-level position to apply my expertise in programming, data analysis, and Machine Learning to solve real-world problems.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center">Project</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="C:\Users\tharu\OneDrive\Pictures\project-management-system-overview.png" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">COMPANY MANAGEMENT SYSTEM</p>
+                        <p>The Company Management System is a comprehensive solution designed to efficiently manage and track various aspects of employee and project operations. Key features include: Employee Status Tracking, Project Management, Leave Management, Attendance Management, Admin Workspace Languages: - HTML, CSS, JS, PHP & MySQL
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="C:\Users\tharu\OneDrive\Pictures\retro-numbers-background_1085-172.avif" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">ALPHA NUMERIC DETECTION</p>
+                        <p>Developed an automated text recognition and document generation tool using OpenCV, Tesseract OCR, and FPDF. The system preprocesses. images, extracts alphanumeric text with bounding box visualization, and compiles the text into a formatted PDF. This streamlined process enhances efficiency in tasks requiring text extraction and document creation.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="C:\Users\tharu\OneDrive\Pictures\handwritten-character-recognition-machine-learning-project.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">HANDWRITTEN TEXT RECOGNITION.</p>
+                        <p>Automated handwritten text recognition reads an image, converts it to grayscale, and applies OTSU thresholding and dilation to enhance text regions. Contours are sorted for reading order, cropped, and processed using Tesseract OCR, with extracted text saved in sequence and output. image with bounding boxes generated, enabling efficient digitization of handwritten content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+<section id="skills" class="container mt-5">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li><b>Programming Languages:</b> Python, Java, C++, JavaScript</li>
+                <li><b>Development Frameworks:</b> Django, React, Node.js</li>
+                <li><b>Databases:</b> MySQL, MongoDB, PostgreSQL</li>
+                <li><b>Operating Systems:</b> Windows, Linux, macOS</li>
+                <li><b>Cloud Platforms:</b> AWS, Google Cloud, Microsoft Azure</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h3>Soft Skills</h3>
+            <ul text="justify-content-center">
+                <li><b>Communication:</b> Excellent verbal and written communication skills</li>
+                <li><b>Teamwork:</b> Proven ability to work effectively in a team environment</li>
+                <li><b>Problem-Solving:</b> Strong analytical and problem-solving skills</li>
+                <li><b>Adaptability:</b> Ability to adapt to new technologies and environments</li>
+                <li><b>Leadership:</b> Experience with leading and managing teams</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="contact-info">
+            <style>
+                .contact-info {
+                    display: flex;
+                    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+                    justify-content: space-between; /* Distribute items evenly */
+                }
+        
+                .contact-info p {
+                    width: 45%; /* Adjust as needed to fit your content */
+                    margin-bottom: 5px; /* Add some spacing between the lines*/
+                }
+        
+                /* Media query for smaller screens */
+                @media (max-width: 600px) {
+                    .contact-info p {
+                        width: 100%; /* Each item takes full width on small screens */
+                    }
+                }
+            </style>
+            <p><strong>NAME:</strong> Tharun Kumar K S</p>
+            <p><strong>Email:</strong> kstarunkumar97@gmail.com</p>
+            <p><strong>Phone Number:</strong> 9591287809</p>
+            <p><strong>Address:</strong> Hirekumbalagunte villege, kudligi(T), Vijayanagara(D).</p>
+        </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        &copy; 2025 My Portfolio
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
